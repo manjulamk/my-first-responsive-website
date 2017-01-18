@@ -101,25 +101,100 @@ header{
 width:100%;
 
 }
+/*** header logo style ***/
+#logo{
 
+}
+/*** Nav style ***/
 nav{
 
-    width: 100%;
-}
-main{
-    width:96%;
-    margin: auto;
-    padding: 02%;
+    width:100%;
 }
 
+nav ul {
+
+}
+nav ul li  a{
+
+}
+/**** Main styles*****/
+main{
+     width:96%;
+    margin:auto;
+    padding:0 2%;
+}
+/*****  Hero -area style*********/
+.hero-area{
+  
+
+}
+/*** top story style****/
+.top-story{
+
+}
+
+/*** top image style****/
+
+.top-img{
+
+}
+
+/*** top info style****/
+
+.top-info{
+
+}
+/*** side bar style****/
+.sidebar{
+
+}
+/**** newsletter *****/
+.newsletter{
+
+}
+/**** sign upbutton  style****/
+.btn{
+
+}
+
+/**** upcoming style****/
+.sidebar-upcoming{
+
+}
+/*** FAQ styles****/
+.sidebar-faq{
+
+}
+/*** feed style****/
+.feed{
+
+}
+/**** feed item  style*****/
+.feed-item{
+
+}
+/*** feed type styles****/
+.feed-type{
+
+
+}
+/**** feed image style****/
+.feed-img{
+
+}
+/***** feed info style****/
+.feed-info{
+
+}
+/**** Footer styles*****/
 
 footer{
-    width: 100%;
-    margin: auto;
+    width:100%;
+    margin:auto;
 }
 #footer-logo{
     width:47.5%;
-    margin: auto;
+    margin:auto;
 }
 
 
