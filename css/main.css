@@ -99,11 +99,12 @@ textarea {
 header{
 
 width:100%;
+margin: 2%;
 
 }
 /*** header logo style ***/
 #logo{
-
+width:100%;
 }
 /*** Nav style ***/
 nav{
@@ -112,10 +113,12 @@ nav{
 }
 
 nav ul {
+  width:50%;
 
 }
 nav ul li  a{
-
+width:50%;
+margin: auto;
 }
 /**** Main styles*****/
 main{
@@ -125,65 +128,125 @@ main{
 }
 /*****  Hero -area style*********/
 .hero-area{
-  
 
+width:100%;
+margin: auto;
 }
 /*** top story style****/
 .top-story{
+  width:100%;
+  margin: auto;
 
 }
 
 /*** top image style****/
 
 .top-img{
+  width:100%;
 
 }
 
 /*** top info style****/
 
 .top-info{
+  width:100%;
 
 }
 /*** side bar style****/
 .sidebar{
+  width:100%;
 
 }
+
 /**** newsletter *****/
 .newsletter{
-
+width:100%;
+margin: auto;
 }
 /**** sign upbutton  style****/
 .btn{
+width:58%;
+border-bottom: 1px solid grey;
+margin: auto;
 
 }
 
 /**** upcoming style****/
 .sidebar-upcoming{
+display:none;
 
 }
 /*** FAQ styles****/
 .sidebar-faq{
-
+display:none;
 }
 /*** feed style****/
 .feed{
+  width:100%;
 
 }
 /**** feed item  style*****/
 .feed-item{
-
+clear:both;
 }
 /*** feed type styles****/
 .feed-type{
-
+ width:50%;
 
 }
 /**** feed image style****/
 .feed-img{
+  width:45%;
+  float:left;
 
 }
 /***** feed info style****/
 .feed-info{
+  width:45%;
+float:left;
+}
+/**** news-detail page detailed-content style****/
+.detailed-content{
+
+}
+/****view/news image style****/
+.reviews-img{
+
+}
+
+/**** review -details paragraph content*****/
+.para1{
+  width:95%;
+  margin: 2%;
+
+}
+/**** review -details paragraph content*****/
+
+.para2{
+width: 95%;
+margin: 2%;
+}
+/**** review -details paragraph content*****/
+
+.para3{
+  width: 95%;
+  margin: 2%;
+
+
+}
+/**** review -details paragraph content*****/
+
+.para4{
+  width: 95%;
+  margin: 2%;
+
+}
+/**** review -details paragraph content*****/
+
+.para5{
+  width: 95%;
+  margin: 2%;
+border-bottom: 1px solid grey;
 
 }
 /**** Footer styles*****/
@@ -195,6 +258,7 @@ footer{
 #footer-logo{
     width:47.5%;
     margin:auto;
+
 }
 
 
