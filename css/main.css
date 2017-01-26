@@ -165,7 +165,7 @@ margin: auto;
 }
 /**** sign upbutton  style****/
 .btn{
-width:58%;
+width:25%;
 border-bottom: 1px solid grey;
 margin: auto;
 
@@ -191,18 +191,18 @@ clear:both;
 }
 /*** feed type styles****/
 .feed-type{
- width:50%;
+ width:40%;
 
 }
 /**** feed image style****/
 .feed-img{
-  width:45%;
+  width:40%;
   float:left;
 
 }
 /***** feed info style****/
 .feed-info{
-  width:45%;
+  width:35%;
 float:left;
 }
 /**** news-detail page detailed-content style****/
@@ -350,17 +350,165 @@ footer{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+ /** Tablet style here****/
+ @media screen and (min-width:768px)
+ {
+  /** HEADER AND nav STYLE ***/
+   header{
+    width: 95%;
+   }
+   #logo{
+    width:40%;
+    float:left;
+   }
+   nav{
+    width:60%;
+    float: right;
+   }
+  nav ul li {
+    margin: 4.5px;
+    float: right;
+    padding-top:10px;
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+   }
+   .hero-area{
+   width:100%;
+   margin:auto;
+
+   }
+   .top-story{
+    width:100%;
+    
+
+   }
+   .top-img{
+    width:57%;
+    float: left;
+
+   }
+   .top-info{
+     width:45%;
+     float: right;
+   }
+   /*** side bar style****/
+     .sidebar{
+      width:45%;
+     float: right;
+     clear: both;
+
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+/**** newsletter *****/
+.newsletter{
+
 }
+/**** sign upbutton  style****/
+.btn{
+width:48%;
+border-bottom: 1px solid grey;
+margin: auto;
+
+}
+
+/**** upcoming style****/
+.sidebar-upcoming{
+display:block;
+
+
+
+}
+/*** FAQ styles****/
+.sidebar-faq{
+display:block;
+
+}
+/*** feed style****/
+.feed{
+  width:60%;
+ float: left;
+
+}
+/**** feed item  style*****/
+.feed-item{
+/*clear:both;*/
+}
+/*** feed type styles****/
+.feed-type{
+ /*width:40%;*/
+
+}
+/**** feed image style****/
+.feed-img{
+  width:35%;
+  /*float:left;*/
+
+}
+/***** feed info style****/
+.feed-info{
+  /*width:35%;
+float:left;*/
+}
+
+/****view/news image style****/
+.reviews-img{
+
+}
+
+/**** review -details paragraph content*****/
+.para1{
+ /* width:95%;
+  margin: 2%;*/
+
+}
+/**** review -details paragraph content*****/
+
+.para2{
+/*width: 95%;
+margin: 2%;*/
+}
+/**** review -details paragraph content*****/
+
+.para3{
+  /*width: 95%;
+  margin: 2%;*/
+
+
+}
+/**** review -details paragraph content*****/
+
+.para4{
+  /*width: 95%;
+  margin: 2%;*/
+
+}
+/**** review -details paragraph content*****/
+
+.para5{
+  /*width: 95%;
+  margin: 2%;
+border-bottom: 1px solid grey;*/
+
+}
+
+/**** Footer styles*****/
+footer{
+    width:100%;
+    clear: both;
+    
+}
+#footer-logo{
+    width:30%;
+    margin:auto;
+
+}
+
+ }
+
+ /** Desktop styles here****/
+ @media screen and (min-width:940 px)
+ {
+
+ }
 
 /* ==========================================================================
    Print styles.
