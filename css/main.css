@@ -158,6 +158,7 @@ margin: auto;
 
 }
 
+
 /**** newsletter *****/
 .newsletter{
 width:100%;
@@ -351,31 +352,40 @@ footer{
    Modify as content requires.
    ========================================================================== */
  /** Tablet style here****/
- @media screen and (min-width:768px)
+ @media (min-width:768px)
  {
   /** HEADER AND nav STYLE ***/
-   header{
+   .main-header{
     width: 95%;
    }
    #logo{
     width:40%;
     float:left;
    }
-   nav{
+   nav {
     width:60%;
     float: right;
+   display: inline;    
+
    }
   nav ul li {
-    margin: 4.5px;
+    margin-right: 4.5px;
     float: right;
     padding-top:10px;
+    display: block;
+  clear:none;
+        
 
    }
+   #faq{
+    padding:1px;
+   }
+   
    .hero-area{
-   width:100%;
-   margin:auto;
-
+    margin: auto;
+    width: 100%;
    }
+   
    .top-story{
     width:100%;
     
@@ -384,29 +394,40 @@ footer{
    .top-img{
     width:57%;
     float: left;
+    margin-top: 30px;
 
    }
    .top-info{
-     width:45%;
+     width:38%;
      float: right;
+     margin-bottom: 5px;
+     display: inline;
+     list-style-type: none;
    }
    /*** side bar style****/
      .sidebar{
-      width:45%;
+      width:38%;
      float: right;
      clear: both;
+     
+
+}
+/*** Author and Date style **/
+.Author, .Date{
+  display: inline;
+  padding-right: 10px;
+  margin-right:10px;
+  
 
 }
 
-/**** newsletter *****/
-.newsletter{
-
+.article-meta-info{
+  float: right;
 }
-/**** sign upbutton  style****/
-.btn{
-width:48%;
-border-bottom: 1px solid grey;
-margin: auto;
+/*** para style ****/
+.para{
+  float: right;
+  width:10%;
 
 }
 
@@ -426,15 +447,7 @@ display:block;
 .feed{
   width:60%;
  float: left;
-
-}
-/**** feed item  style*****/
-.feed-item{
-/*clear:both;*/
-}
-/*** feed type styles****/
-.feed-type{
- /*width:40%;*/
+ border-right: 1px solid #ccc;
 
 }
 /**** feed image style****/
@@ -443,57 +456,53 @@ display:block;
   /*float:left;*/
 
 }
-/***** feed info style****/
 .feed-info{
-  /*width:35%;
-float:left;*/
-}
-
-/****view/news image style****/
-.reviews-img{
+  width:40%;
+float:left;
 
 }
+/* DETAILED PAGES ================================ */
 
-/**** review -details paragraph content*****/
-.para1{
- /* width:95%;
-  margin: 2%;*/
+    .reviews-img, .news-img{
+        width: 50%;
+        float: left;
 
-}
-/**** review -details paragraph content*****/
+    }
+    
+    .article-header detail-title{
+        width: 50%;
+        float: right;
+        padding:10px;
+    }
+    .detail{
+        width: 100%;    
+    }
+        .sidebar{
+            display: inline;
+            width:100%;
+          
+        }
+        /** newsletter form style ***/
+        /*.newsletter-form{
+          width: 200%;
+        }*/
+        /*** submit button style**/
 
-.para2{
-/*width: 95%;
-margin: 2%;*/
-}
-/**** review -details paragraph content*****/
-
-.para3{
-  /*width: 95%;
-  margin: 2%;*/
 
 
-}
-/**** review -details paragraph content*****/
 
-.para4{
-  /*width: 95%;
-  margin: 2%;*/
+.clearfix{
+  width: 110%;
+  text-align:justify;
 
-}
-/**** review -details paragraph content*****/
-
-.para5{
-  /*width: 95%;
-  margin: 2%;
-border-bottom: 1px solid grey;*/
-
+  border-bottom: 2px solid #ccc;
 }
 
 /**** Footer styles*****/
 footer{
     width:100%;
     clear: both;
+    margin-top: 50%;
     
 }
 #footer-logo{

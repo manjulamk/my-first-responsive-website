@@ -20,7 +20,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
+        <header class ="main-header">
          <h1 id = "logo">Unplugged</h1>
          <nav>
 
@@ -28,10 +28,9 @@
                 <li> <a href= "#">Concerts</a></li>
                 <li> <a href= "#">Reviews</a></li>
                 <li> <a href= "#">About Us</a></li>
-                  <ul>
-                <li> <a href= "#">FAQ</a></li>
-                <li> <a href= "#">Who We Are & Contact</a></li>
-            </ul>
+                <li id ="faq"> <a href= "#">FAQ</a></li>
+                
+            
             </ul>
          </nav>
 
@@ -40,7 +39,21 @@
 
         <main>
 
-            <section class ="hero-area">
+            <article class="detailed-content">
+                <figure class="reviews-img">
+                    <img src="../img/news-img1.png" alt="Wilco photo">
+                </figure>
+
+                <header class="article-header detail-title">
+                    <h1>Wilco Announces New Album and Summer Tour</h1>
+                    <ul class="article-meta-info">
+                        <li class="Author">Author Name</li>
+                        <li class="Date"><time>June 09, 2015</time></li>
+                    </ul>
+                </header>
+
+           <!-- <section class ="hero-area">
+
                 <article class ="top-story">
                  <figure class ="top-img">
                     <a href="reviews/review-detail.html"><img src="img/top-review-photo.png" alt="Wilco photo"></a>
@@ -48,41 +61,44 @@
                  </figure>
 
                  <div class ="top-info">
-                <h4>Wilco photo</h4>
+                
                 <h1> Beirut's New Album -Their Best Album Yet</h1>
                        <ul>
-                         <li>Author Name</li>
-                         <li>June 09 2015</li>
-                        </ul>
-
-                          <p class="para1"><strong> Byline:</strong>Lorem ipsum dolor sit amet, consectetur
+                         <li id ="Author">Author Name</li>
+                         <li id ="Date">June 09 2015</li>
+                        </ul>-->
+                          <div class ="para">
+                          <p><strong> Byline:</strong>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Aenean   euismod bibendum laoreet. Proin gravida dolor sit amet
-                            lacus accumsan et viverra justo commodo.</p><br>
-                          <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            lacus accumsan et viverra justo commodo.</p> </div><br>
+                            <div class="clearfix">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                             euismod bibendum laoreet. Proin gravida dolor sit amet lacus
                             accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient
                             montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate,
                             felis tellus mollis orci, sed rhoncus sapien nuc eget odio.</p><br>
-                          <p class="para3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempr. Cum sociis natoque
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempr. Cum sociis natoque
                              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                              Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed
                              rhoncus sapien nunc eget odio.</p><br>
-                          <p class ="para4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                              Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                              viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus
                              et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus
                              pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem
                              ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate,
                             felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p><br>
-                          <p class ="para5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aenean euismod bibendum laoreet.Proin gravida dolor sit amet
                             lacus accumsan et viverra justo commodo. Proin sodales pulvinar
                             tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam
                             fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus
-                            sapien nunc eget odio.</p><br>
+                            sapien nunc eget odio.</p>
+                          </div>
+                            <br>
                             
 
-            </div>
+            
 
         </article>
 
@@ -91,17 +107,18 @@
 
             <aside class ="sidebar">
                 <!---Newsletter signup-->
-
+                  
                 <div class ="newsletter">
                 <h2>Newsletter Signup</h2>
                 <form>
-                  <input type ="text" name="Newsletter">
+                  <input  type ="text" name="Newsletter" style="width: 456px;"/>
                   
-                  <input type ="submit" class ="btn" value ="SignUp">
+                  <input type ="submit" class ="btn" value ="SignUp" style="width:271px;"/>
                   <br><br>
                   
                 </form>
                 </div>
+                
 
             </aside>
         </section>
