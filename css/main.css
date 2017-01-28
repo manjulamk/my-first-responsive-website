@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 /***  Header style ******/
-header{
+main-header{
 
 width:100%;
 margin: 2%;
@@ -215,19 +215,20 @@ float:left;
 
 }
 
-/**** review -details paragraph content*****/
+
+/**** review -details paragraph content*
 .para1{
   width:95%;
   margin: 2%;
 
 }
-/**** review -details paragraph content*****/
+/**** review -details paragraph content****
 
 .para2{
 width: 95%;
 margin: 2%;
 }
-/**** review -details paragraph content*****/
+/**** review -details paragraph content****
 
 .para3{
   width: 95%;
@@ -235,14 +236,14 @@ margin: 2%;
 
 
 }
-/**** review -details paragraph content*****/
+/**** review -details paragraph content***
 
 .para4{
   width: 95%;
   margin: 2%;
 
 }
-/**** review -details paragraph content*****/
+/**** review -details paragraph content****
 
 .para5{
   width: 95%;
@@ -250,6 +251,8 @@ margin: 2%;
 border-bottom: 1px solid grey;
 
 }
+*/
+
 /**** Footer styles*****/
 
 footer{
@@ -381,10 +384,10 @@ footer{
     padding:1px;
    }
    
-   .hero-area{
+   /*.hero-area{
     margin: auto;
     width: 100%;
-   }
+   }*/
    
    .top-story{
     width:100%;
@@ -401,48 +404,25 @@ footer{
      width:38%;
      float: right;
      margin-bottom: 5px;
-     display: inline;
-     list-style-type: none;
+     
+     
    }
    /*** side bar style****/
-     .sidebar{
-      width:38%;
+     .sidebar-section {
+      width: 38%;
      float: right;
      clear: both;
+     margin-top: 20px;
      
+     }
 
-}
-/*** Author and Date style **/
-.Author, .Date{
-  display: inline;
-  padding-right: 10px;
-  margin-right:10px;
-  
-
-}
-
-.article-meta-info{
-  float: right;
-}
-/*** para style ****/
-.para{
-  float: right;
-  width:10%;
-
-}
-
-/**** upcoming style****/
-.sidebar-upcoming{
-display:block;
-
-
-
-}
-/*** FAQ styles****/
-.sidebar-faq{
+/**** upcoming  and FAQ styles****/
+.sidebar-upcoming,.sidebar-faq,.newsletter{
 display:block;
 
 }
+
+
 /*** feed style****/
 .feed{
   width:60%;
@@ -462,23 +442,44 @@ float:left;
 
 }
 /* DETAILED PAGES ================================ */
+   .detailed{
+      width:95%;
+      margin-top: 30px;
+   }
+     .detailed-content{
+      width: 85%;
+      margin-left: 50px;
 
-    .reviews-img, .news-img{
-        width: 50%;
+     }
+
+
+    .reviews-img, .news-img.png{
+        width: 60%;
         float: left;
 
     }
+
     
-    .article-header detail-title{
+    .article-header-detail-title h2{
         width: 50%;
         float: right;
-        padding:10px;
+        padding:1px;
+        margin-right: 10px;
+        margin-top: 10px;
     }
-    .detail{
-        width: 100%;    
-    }
-        .sidebar{
-            display: inline;
+
+/*** Author and Date style **/
+
+.Author, .Date{
+  float: right;
+  display:inline;
+
+  margin-left: 220px;
+  clear: right;
+}
+        
+    aside.sidebar-detail{
+            /*display: inline;*/
             width:100%;
           
         }
@@ -488,12 +489,27 @@ float:left;
         }*/
         /*** submit button style**/
 
+.sidebar-detail.newsletter h2{
+  display:inline;
+}
+.sidebar-detail.newsletter input{
+  display:inline;
+}
+
+/*** para style ****/
+#para p{
+  float: right;
+  width:20%;
+  margin:50px;
 
 
 
-.clearfix{
-  width: 110%;
-  text-align:justify;
+}
+
+section.clearfix{
+  width: 95%;
+  
+  margin-top: 170px;
 
   border-bottom: 2px solid #ccc;
 }
